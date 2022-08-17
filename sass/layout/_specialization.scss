@@ -1,4 +1,4 @@
-.specialization {
+.section__specialization {
     /* outline: 2px solid tomato; */
     padding-bottom: 94px;
 }
@@ -20,24 +20,24 @@
 
 
 
-.specialization .list {
+.section__specialization .list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.list-example {
+.specialization__list-example {
     /* position: relative;
     display: block; */
 
     width: calc((100% - 60px) / 3);
 }
 
-.specialization-box {
+.specialization__box {
     position: relative;
 }
 
-.specialization-name-title {
+.specialization__name-title {
     position: absolute;
     left: 0;
     bottom: 0;
